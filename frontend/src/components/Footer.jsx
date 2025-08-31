@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Brain, Github, Twitter, Mail, Heart } from "lucide-react";
+import { Github, Twitter, Mail, Heart } from "lucide-react";
+import Logo from "./Logo";
 
 const Footer = () => {
   return (
@@ -10,11 +11,8 @@ const Footer = () => {
           
           {/* Brand Section */}
           <div className="col-span-1">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-lg flex items-center justify-center">
-                <Brain className="w-5 h-5 text-white" />
-              </div>
-              <span className="text-xl font-bold text-white">Semisizer</span>
+            <div className="mb-4">
+              <Logo size="sm" variant="dark" />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
               Transform YouTube videos into intelligent summaries with the power of advanced AI technology.
