@@ -34,6 +34,36 @@ const Header = () => {
               Home
             </Link>
             <Link
+              to="/features"
+              className={`font-medium transition-colors duration-200 ${
+                isActive("/features") 
+                  ? "text-blue-600 border-b-2 border-blue-600 pb-1" 
+                  : "text-slate-700 hover:text-blue-600"
+              }`}
+            >
+              Features
+            </Link>
+            <Link
+              to="/pricing"
+              className={`font-medium transition-colors duration-200 ${
+                isActive("/pricing") 
+                  ? "text-blue-600 border-b-2 border-blue-600 pb-1" 
+                  : "text-slate-700 hover:text-blue-600"
+              }`}
+            >
+              Pricing
+            </Link>
+            <Link
+              to="/about"
+              className={`font-medium transition-colors duration-200 ${
+                isActive("/about") 
+                  ? "text-blue-600 border-b-2 border-blue-600 pb-1" 
+                  : "text-slate-700 hover:text-blue-600"
+              }`}
+            >
+              About
+            </Link>
+            <Link
               to="/summarize"
               className={`font-medium transition-colors duration-200 ${
                 isActive("/summarize") 
@@ -43,18 +73,6 @@ const Header = () => {
             >
               Summarize
             </Link>
-            <a
-              href="#features"
-              className="font-medium text-slate-700 hover:text-blue-600 transition-colors duration-200"
-            >
-              Features
-            </a>
-            <a
-              href="#about"
-              className="font-medium text-slate-700 hover:text-blue-600 transition-colors duration-200"
-            >
-              About
-            </a>
           </nav>
 
           {/* CTA Button */}
