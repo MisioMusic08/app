@@ -107,6 +107,33 @@ const Header = () => {
                 Home
               </Link>
               <Link
+                to="/features"
+                className={`font-medium transition-colors duration-200 ${
+                  isActive("/features") ? "text-blue-600" : "text-slate-700"
+                }`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Features
+              </Link>
+              <Link
+                to="/pricing"
+                className={`font-medium transition-colors duration-200 ${
+                  isActive("/pricing") ? "text-blue-600" : "text-slate-700"
+                }`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Pricing
+              </Link>
+              <Link
+                to="/about"
+                className={`font-medium transition-colors duration-200 ${
+                  isActive("/about") ? "text-blue-600" : "text-slate-700"
+                }`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About
+              </Link>
+              <Link
                 to="/summarize"
                 className={`font-medium transition-colors duration-200 ${
                   isActive("/summarize") ? "text-blue-600" : "text-slate-700"
@@ -115,20 +142,6 @@ const Header = () => {
               >
                 Summarize
               </Link>
-              <a
-                href="#features"
-                className="font-medium text-slate-700 hover:text-blue-600 transition-colors duration-200"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Features
-              </a>
-              <a
-                href="#about"
-                className="font-medium text-slate-700 hover:text-blue-600 transition-colors duration-200"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                About
-              </a>
               <Link to="/summarize" onClick={() => setIsMenuOpen(false)}>
                 <Button className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-semibold mt-4">
                   Try Now
