@@ -49,18 +49,18 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="#features" className="hover:text-blue-400 transition-colors duration-200">
+                <Link to="/features" className="hover:text-blue-400 transition-colors duration-200">
                   Features
-                </a>
+                </Link>
+              </li>
+              <li>
+                <Link to="/pricing" className="hover:text-blue-400 transition-colors duration-200">
+                  Pricing
+                </Link>
               </li>
               <li>
                 <a href="#" className="hover:text-blue-400 transition-colors duration-200">
                   API Access
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-blue-400 transition-colors duration-200">
-                  Pricing
                 </a>
               </li>
             </ul>
@@ -71,9 +71,9 @@ const Footer = () => {
             <h3 className="text-white font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#about" className="hover:text-blue-400 transition-colors duration-200">
+                <Link to="/about" className="hover:text-blue-400 transition-colors duration-200">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="hover:text-blue-400 transition-colors duration-200">
