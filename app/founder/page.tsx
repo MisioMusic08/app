@@ -32,7 +32,7 @@ export default function FounderPage() {
                 className="relative aspect-square w-[280px] sm:w-[340px] md:w-[400px] rounded-full overflow-hidden border-4 border-white/20 shadow-[0_10px_40px_rgba(0,0,0,0.45)] bg-white/5"
               >
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-12-03%20at%2018.14.23_4d349ae7-aWJK9zU2DOpXOrkzgkQTOqbvgW8ntE.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/v0_image-VsUCXinwJnnV27kzityFYPdl0Ifye8.png"
                   alt="Founder portrait"
                   fill
                   className="object-cover"
@@ -52,7 +52,7 @@ export default function FounderPage() {
               <Badge variant="secondary" className="text-sm">Founder</Badge>
               <Badge variant="secondary" className="text-sm">AI Programmer</Badge>
               <Badge variant="secondary" className="text-sm">Psychologist</Badge>
-              <Badge variant="secondary" className="text-sm">Age 16</Badge>
+              <Badge variant="secondary" className="text-sm">Age 17</Badge>
             </div>
 
             <p className="mt-5">
