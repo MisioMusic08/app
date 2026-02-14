@@ -32,7 +32,7 @@ export default function FounderPage() {
                 className="relative aspect-square w-[280px] sm:w-[340px] md:w-[400px] rounded-full overflow-hidden border-4 border-white/20 shadow-[0_10px_40px_rgba(0,0,0,0.45)] bg-white/5"
               >
                 <Image
-                  src="/images/founder-bhargava-bharath.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-12-03%20at%2018.14.23_4d349ae7-aWJK9zU2DOpXOrkzgkQTOqbvgW8ntE.jpg"
                   alt="Founder portrait"
                   fill
                   className="object-cover"
