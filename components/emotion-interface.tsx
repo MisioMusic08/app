@@ -157,8 +157,8 @@ export function EmotionInterface() {
 
   return (
     <div className="w-full">
-      {/* Top: Emotion Summary - mobile-first hero */}
-      <section className="mb-6 grid gap-4 md:grid-cols-2 lg:grid-cols-[1.2fr_1fr] lg:gap-6">
+      {/* Top: Emotion Summary - optimized for all screen sizes */}
+      <section className="mb-6 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr] xl:grid-cols-[1.6fr_0.9fr] lg:gap-6">
         <Card className="bg-white/75 dark:bg-black/40 backdrop-blur border border-white/30 dark:border-white/10 overflow-hidden">
           <CardContent className="p-5 md:p-7">
             <div className="flex items-center justify-between gap-3">
@@ -186,7 +186,7 @@ export function EmotionInterface() {
               </div>
             </div>
 
-            <div className="mt-4 grid grid-cols-1 md:grid-cols-[minmax(240px,340px)_1fr] gap-6 items-start">
+            <div className="mt-4 grid grid-cols-1 md:grid-cols-[minmax(260px,280px)_1fr] lg:grid-cols-[minmax(300px,360px)_1fr] gap-6 items-start">
               {/* Emotion Avatar */}
               <EmotionAvatar
                 emotion={fused.label}
@@ -372,7 +372,7 @@ function EmotionAvatar({
   const browTilt = useTransform(brow, [-30, 30], [-18, 18])
 
   return (
-    <div className="relative w-[clamp(220px,28vw,320px)] sm:w-[clamp(240px,26vw,340px)] md:w-[clamp(260px,24vw,340px)] lg:w-[360px] mx-auto md:mx-0">
+    <div className="relative w-[clamp(220px,28vw,300px)] sm:w-[clamp(240px,26vw,320px)] md:w-[clamp(260px,24vw,340px)] lg:w-[400px] xl:w-[440px] mx-auto md:mx-0">
       <motion.div
         className="absolute -inset-6 rounded-full blur-2xl"
         style={{ background: `radial-gradient(circle, hsla(${hue},90%,${light + 18}%,0.75), transparent 60%)` }}

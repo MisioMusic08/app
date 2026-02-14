@@ -8,9 +8,9 @@ import { Navbar } from "@/components/navbar"
 import { TopProgressBar } from "@/components/top-progress-bar"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.dev",
+  title: "ARISE - Emotional AI",
+  description: "Next-gen emotional intelligence platform powered by advanced AI",
+  generator: "arise.ai",
 }
 
 export default function RootLayout({
